@@ -1,12 +1,12 @@
 ﻿using LineComparision;
 Comparision comparision = new Comparision(1, 2, 3, 4);
 comparision.CalculateLength();
-Comparision line1 = new Comparision(1, 2, 3, 4);
-line1.CalculateLength();
-Comparision line2 = new Comparision(1, 2, 3, 4);
-line2.CalculateLength();
+Comparision L1 = new Comparision(1, 2, 3, 4);
+L1.CalculateLength();
+Comparision L2 = new Comparision(1, 2, 3, 4);
+L2.CalculateLength();
 
-if (line1.Equals(line2))
+if (L1.Equals(L2))
 {
     Console.WriteLine("Both lines are equal");
 }
