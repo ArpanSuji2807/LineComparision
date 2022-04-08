@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LineComparision;
+Comparision linecomparision = new Comparision(1, 2, 3, 4);
+linecomparision.CalculateLength();
